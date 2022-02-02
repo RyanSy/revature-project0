@@ -1,11 +1,16 @@
 package com.revature;
 
+import java.util.Scanner;
+
 public class BankingApplicationDriver {
 
     public static void main(String[] args)  {
         JavalinApp app = new JavalinApp();
         app.start(8080);
 
+        System.out.println("===================================");
+        System.out.println("||   Welcome to Revature Bank!   ||");
+        System.out.println("===================================");
         /*
         Javalin app = Javalin.create().start();
 
